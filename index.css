@@ -1,0 +1,50 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.main-div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #cbd5e1;
+    width: 100%;
+    height: 100vh;
+}
+
+.qr-code-main-box
+{
+    width:320px;
+    height:499px;
+    background-color: white;
+    display: flex;;
+    flex-direction: column;
+    border-radius: 20px;
+  
+   
+}
+
+.qr-code
+{
+    width: 288px;
+    height: 288px;
+    margin: 16px 16px 24px 16px;
+   
+}
+.desc-box
+{
+    width: 288px;
+    height: 13px;
+    margin: 0px 16px 40px 16px;
+   
+   
+}
+.qr-code-image
+{
+    border-radius: 10px;
+   
+}
